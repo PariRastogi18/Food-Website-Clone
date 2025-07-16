@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Bootstrap Home Page</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="container-fluid">
+      <div class="row header-top m-0">
+        <div class="col-sm-12 header-col">
+          <span>Super Value Deals - Save More With Coupons</span>
+          <div class="icon-lang">
+            <img src="united-kingdom.png" alt="img" width="16" height="18" />
+            <select name="" id="dropdown">
+              <option value="india">English</option>
+              <option value="india">Hindi</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- header-close -->
+
+      <!-- navbar -->
+      <div class="row w-100 m-0">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid nav-con">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="https://freshcart.codescandy.com/assets/images/logo/freshcart-logo.svg"
+                  alt="freshcart-logo"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle active"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Account
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Sign In</a></li>
+                      <li><a class="dropdown-item" href="#">SignUp</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Forgot Password</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">My Account</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="searchBar d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search For Products"
+                    aria-label="Search"
+                    width="50px"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- navbar-close -->
+
+    <!-- slider -->
+    <div class="container-fluid">
+      <div class="row m-0">
+        <div class="col-sm-12">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img
+                  src="https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="http://freshcart.codescandy.com/assets/images/slider/slider-2.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider-close -->
+
+    <!-- cards -->
+    <div class="container-fluid feature-all">
+      <div class="row m-0">
+        <div class="col-sm-12 feature">
+          <h5>Featured Category</h5>
+          <div class="icons">
+            <div class="icon1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30px"
+                viewBox="0 -960 960 960"
+                width="30px"
+                fill="#e3e3e3"
+              >
+                <path
+                  d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"
+                />
+              </svg>
+            </div>
+
+            <div class="icon2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30px"
+                viewBox="0 -960 960 960"
+                width="30px"
+                fill="#e3e3e3"
+              >
+                <path
+                  d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0 feature2">
+        <div class="col-sm-3 feature-col">
+          <div class="card">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/category/category-dairy-bread-eggs.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Dairy,Breads & Eggs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 feature-col">
+          <div class="card">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/category/category-snack-munchies.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Snacks & Munchies</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 feature-col">
+          <div class="card">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/category/category-bakery-biscuits.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Bakery & Biscuits</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 feature-col">
+          <div class="card">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/category/category-instant-food.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">Instant & Food</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cards-close -->
+
+    <!-- banner -->
+    <div class="container-fluid">
+      <div class="banner row m-0">
+        <div class="col-sm-6 bannre1">
+          <img src="grocery-banner.png" alt="banner1" class="img-fluid" />
+        </div>
+        <div class="col-sm-6 bannre2">
+          <img src="grocery-banner-2.jpg" alt="banner2" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!-- banner-close -->
+
+    <!-- Popular Products -->
+    <div class="container-fluid">
+      <div class="row heading m-0">
+        <div class="col-sm-12">
+          <h5>Popular Products</h5>
+        </div>
+      </div>
+      <div class="row products m-0">
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale" style="background-color: red">Sale</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-1.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Snack & Munchies</b>
+            </div>
+            <div class="name-p-h">
+              <b>Haldiram's Sev Bhujia</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5(149)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$18 <del>$24</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale">14%</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-2.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Bakery & Biscuits</b>
+            </div>
+            <div class="name-p-h">
+              <b>NutriChoice Digestive</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5 (25)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$24</span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale">50%</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-3.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Bakery & Biscuits</b>
+            </div>
+            <div class="name-p-h">
+              <b>Cadbury 5 Star Chocolate</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 5 (469)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$32 <del>$35</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale" style="background-color: red">Hot</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-4.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Snack & Munchies</b>
+            </div>
+            <div class="name-p-h">
+              <b>Onion Flavour Potato</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 3.5 (456)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$3 <del>$5</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row products m-0">
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale">10%</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-5.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Instant Food</b>
+            </div>
+            <div class="name-p-h">
+              <b>Salted Instant Popcorn</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5 (39)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$13 <del>$18</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale" style="background-color: red">Sale</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-6.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Dairy, Bread & Eggs</b>
+            </div>
+            <div class="name-p-h">
+              <b>Blueberry Greek Yogurt</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5 (189)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$18 <del>$24</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale">50%</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-7.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Dairy, Bread & Eggs</b>
+            </div>
+            <div class="name-p-h">
+              <b>Britannia Cheese Slices</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 5 (345)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$24<del>$35</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product-col">
+          <div class="card-p">
+            <div class="sale" style="background-color: red">Hot</div>
+            <div class="img-p">
+              <img
+                src="https://freshcart.codescandy.com/assets/images/products/product-img-8.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="name-p">
+              <b>Instant Food</b>
+            </div>
+            <div class="name-p-h">
+              <b>Kellogg's Original Cereals</b>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4 (90)</span>
+            </div>
+            <div class="card-b">
+              <div class="card-r">
+                <span>$3 <del>$5</del></span>
+              </div>
+              <div class="card-btn">
+                <button><i class="fa-solid fa-plus"></i> Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Popular Products -->
+
+    <!-- Daily Sales -->
+    <div class="container-fluid">
+      <div class="row m-2">
+        <div class="col-sm-12 sales">
+          <h5>Daily Best Sells</h5>
+        </div>
+      </div>
+      <div class="row m-0 sale-row">
+        <div
+          class="col-sm-3 card-sale-big"
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <img
+            src="https://freshcart.codescandy.com/assets/images/banner/banner-deal.jpg"
+            alt=""
+            class="img-fluid card-sale-big-img"
+          />
+        </div>
+        <div class="col-sm-3 card-sale">
+          <div class="img-sale">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/products/product-img-11.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name-p">
+            <b>Tea, Coffee & Drinks</b>
+          </div>
+          <div class="name-p-h">
+            <b>Roast Ground Coffee</b>
+          </div>
+          <div class="value">
+            <div class="card-b">
+              <div class="card-r">
+                <span>$18 <del>$24</del></span>
+              </div>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5(149)</span>
+            </div>
+          </div>
+          <div class="btn-sale">
+            <button><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+          <div class="row m-0 times">
+            <div class="col-sm-4 time">Days</div>
+            <div class="col-sm-4 time">Hours</div>
+            <div class="col-sm-4 time">Min</div>
+          </div>
+        </div>
+        <div class="col-sm-3 card-sale">
+          <div class="img-sale">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/products/product-img-12.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name-p">
+            <b>Fruits & Vegetables</b>
+          </div>
+          <div class="name-p-h">
+            <b>Crushed Tomatoes</b>
+          </div>
+          <div class="value">
+            <div class="card-b">
+              <div class="card-r">
+                <span>$13 <del>$18</del></span>
+              </div>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5(149)</span>
+            </div>
+          </div>
+          <div class="btn-sale">
+            <button><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+          <div class="row m-0 times">
+            <div class="col-sm-4 time">Days</div>
+            <div class="col-sm-4 time">Hours</div>
+            <div class="col-sm-4 time">Min</div>
+          </div>
+        </div>
+        <div class="col-sm-3 card-sale">
+          <div class="img-sale">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/products/product-img-13.jpg"
+              alt=""
+            />
+          </div>
+          <div class="name-p">
+            <b>Fruits & Vegetables</b>
+          </div>
+          <div class="name-p-h">
+            <b>Golden Pineapple</b>
+          </div>
+          <div class="value">
+            <div class="card-b">
+              <div class="card-r">
+                <span>$18 <del>$24</del></span>
+              </div>
+            </div>
+            <div class="star">
+              <span class="span1">★★★★☆</span>
+              <span class="span2"> 4.5(149)</span>
+            </div>
+          </div>
+          <div class="btn-sale">
+            <button><i class="fa-solid fa-plus"></i> Add</button>
+          </div>
+          <div class="row m-0 times">
+            <div class="col-sm-4 time">Days</div>
+            <div class="col-sm-4 time">Hours</div>
+            <div class="col-sm-4 time">Min</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Daily Sales -->
+
+    <!-- condition cards -->
+    <div class="container-fluid">
+      <div class="row m-2 condition-card">
+        <div class="col-sm-3 condition-col">
+          <div class="card-c">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/icons/clock.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>10 minute grocery now</h5>
+              <p class="card-text">
+                Get your order delivered to your doorstep at the earliest from
+                FreshCart pickup stores near you.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 condition-col">
+          <div class="card-c">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/icons/gift.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>Best Prices & Offers</h5>
+              <p class="card-text">
+                Cheaper prices than your local supermarket, great cashback
+                offers to top it off. Get best pricess & offers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 condition-col">
+          <div class="card-c">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/icons/package.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>Wide Assortment</h5>
+              <p class="card-text">
+                Choose from 5000+ products across food, personal care,
+                household, bakery, veg and non-veg & other categories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 condition-col">
+          <div class="card-c">
+            <img
+              src="https://freshcart.codescandy.com/assets/images/icons/refresh-cw.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>Easy Returns</h5>
+              <p class="card-text">
+                Not satisfied with a product? Return it at the doorstep & get a
+                refund within hours. No questions asked policy .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- condition cards -->
+    <!-- Footer -->
+    <div class="all-footer">
+      <div class="container-fluid footer-con">
+        <div class="row footer">
+          <div class="col-sm-2 footer-card">
+            <b class="title">Categories</b>
+            <p>Dairy, bread & eggs</p>
+            <p>Cold drinks & juices</p>
+            <p>Tea, coffee & drinks</p>
+            <p>Masala, oil & more</p>
+          </div>
+          <div class="col-sm-2 footer-card">
+            <b class="title">Others</b>
+            <p>Vegetables & Fruits</p>
+            <p>Breakfast & Instant Food</p>
+            <p>Bakery & Biscuits</p>
+            <p>Saues & Spreads</p>
+          </div>
+          <div class="col-sm-2 footer-card">
+            <b class="title">Get to know us</b>
+            <p>Company</p>
+            <p>About</p>
+            <p>Blog</p>
+            <p>Help Center</p>
+          </div>
+          <div class="col-sm-2 footer-card">
+            <b class="title">For Consumers</b>
+            <p>Payment</p>
+            <p>Shipping</p>
+            <p>Product Returns</p>
+            <p>Shop Checkout</p>
+          </div>
+          <div class="col-sm-2 footer-card">
+            <b class="title">Become a Shopper</b>
+            <p>Shopper Opportunities</p>
+            <p>Become a Shopper</p>
+            <p>Earnings</p>
+            <p>Ideas & Guidens</p>
+          </div>
+          <div class="col-sm-2 footer-card">
+            <b class="title">Freshchart</b>
+            <p>Freshchart Program</p>
+            <p>Gift Cards</p>
+            <p>Promos & Coupons</p>
+            <p>Freshchart Ads</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-fluid">
+        <div class="row m-0">
+          <div class="col-sm-12 mid">
+            <div class="text-1"><b>Payment Partners</b></div>
+            <img
+              src="https://freshcart.codescandy.com/assets/images/payment/amazonpay.svg"
+              alt=""
+            /><img
+              src="https://freshcart.codescandy.com/assets/images/payment/american-express.svg"
+              alt=""
+            /><img
+              src="https://freshcart.codescandy.com/assets/images/payment//mastercard.svg"
+              alt=""
+            /><img
+              src="https://freshcart.codescandy.com/assets/images/payment/paypal.svg"
+              alt=""
+            /><img
+              src="https://freshcart.codescandy.com/assets/images/payment/visa.svg"
+              alt=""
+            />
+            <div class="text"><b>Get deliveries with FreshCart</b></div>
+            <img
+              src="https://freshcart.codescandy.com/assets/images/appbutton/appstore-btn.svg"
+              alt=""
+              class="big-img"
+            /><img
+              src="https://freshcart.codescandy.com/assets/images/appbutton/googleplay-btn.svg"
+              alt=""
+              class="big-img"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-fluid buttom-con">
+        <div class="row buttom">
+          <div
+            class="col-sm-12 d-flex justify-content-around align-items-center"
+          >
+            <b>Copyright &commat; All rights reserved</b>
+            <div
+              class="logos d-flex align-items-center justify-content-between"
+            >
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer-close -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

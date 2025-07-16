@@ -1,0 +1,535 @@
+/* For Mobile Screen */
+@media (max-width: 599px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .header-top .header-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    font-weight: 500;
+    font-size: 9.5px;
+  }
+  .header-top .icon-lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navbar .nav-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature-all .feature h5 {
+    text-align: center;
+  }
+  .feature-all .feature .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+  .feature-all .feature2 .feature-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .bannre1 {
+    margin-bottom: 2rem;
+  }
+  .sales .card-sale-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .condition-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .products .product-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-p {
+    height: 24rem;
+    width: 100%;
+    margin: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 14rem;
+  }
+  .sales h5 {
+    text-align: center;
+  }
+
+  .all-footer .footer .footer-card {
+    margin-bottom: 1rem;
+  }
+  .mid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+  }
+  .mid b {
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+  }
+  .mid img {
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  .mid .big-img {
+    height: 3rem;
+    width: 7rem;
+  }
+  .card-p,
+  .feature-all .feature,
+  .feature-all .feature2,
+  .card-sale-big,
+  .card-sale,
+  .condition-card .card-c,
+  .all-footer .footer .footer-card {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+/* For Tablet Screen */
+@media (min-width: 576px) and (max-width: 899px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .feature-all .feature h5 {
+    text-align: center;
+  }
+  .feature-all .feature .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+  .feature-all .feature2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-all .feature-col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .bannre1 {
+    margin-bottom: 2rem;
+  }
+  .sale-row .card-sale-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .sale-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+  }
+  .condition-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+  }
+  .condition-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .heading {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+  }
+  .products .product-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .card-p {
+    height: 24rem;
+    width: 100%;
+    margin: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 14rem;
+  }
+  .sales h5 {
+    text-align: center;
+  }
+
+  .all-footer .footer .footer-card {
+    margin-bottom: 1rem;
+  }
+  .all-footer .footer-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mid b {
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+  }
+  .mid img {
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  .mid .big-img {
+    height: 3rem;
+    width: 7rem;
+  }
+  .card-p,
+  .feature-all .feature,
+  .feature-all .feature2,
+  .card-sale-big,
+  .card-sale,
+  .condition-card .card-c,
+  .all-footer .footer .footer-card {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+/* For Laptop Screen */
+@media (min-width: 900px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .header-top {
+    height: 30px;
+    background-color: rgb(237, 231, 231);
+    width: auto;
+  }
+  .header-top .header-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    font-weight: 500;
+  }
+  .icon-lang select {
+    border: none;
+    background-color: rgb(237, 231, 231);
+    color: gray;
+    font-size: small;
+  }
+  .navbar {
+    margin-top: 0px;
+    width: auto;
+  }
+  .searchBar {
+    width: 50%;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: green;
+  }
+  .feature-all .feature h5 {
+    margin: 1rem;
+  }
+  .feature-all .card {
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-all .card:hover {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15),
+      0 1.5px 6px rgba(0, 128, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+    border: 2px solid green;
+  }
+  .feature-all .card img {
+    height: 7rem;
+    width: 7rem;
+  }
+  .feature-all .card-body p {
+    text-align: center;
+  }
+  .feature-all .feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon1,
+  .icon2 {
+    cursor: pointer;
+  }
+  .icon1,
+  .icon2:hover {
+    box-shadow: 0xp 0px 10px 10px rgb(182, 178, 178);
+    color: green;
+  }
+  .feature-all .feature-col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+  }
+  .banner {
+    padding: 38px;
+  }
+  .heading {
+    padding: 1rem 1rem;
+  }
+  .card-p {
+    height: 24rem;
+    width: auto;
+    margin: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .card-p:hover {
+    border: 2px solid green;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15),
+      0 1.5px 6px rgba(0, 128, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+  }
+  .card-p .sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 5px;
+    color: aliceblue;
+    height: 1rem;
+    width: 2rem;
+    font-size: small;
+    padding: 1px;
+    margin: 5px;
+    font-weight: bold;
+  }
+  .card-p .img-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-p .name-p {
+    color: gray;
+    margin: 0px 5px;
+    font-size: small;
+  }
+  .card-p .name-p-h {
+    margin: 0px 5px;
+  }
+  .card-p .name-p-h:hover {
+    color: green;
+  }
+  .card-p .star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 5px;
+    gap: 2px;
+  }
+  .card-p .star .span1 {
+    color: yellow;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .card-p .star .span2 {
+    color: gray;
+    font-size: medium;
+    font-weight: 500;
+  }
+  .card-p .card-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .card-p .card-b .card-btn button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .card-p .card-b .card-r {
+    color: gray;
+  }
+  .sale-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-sale {
+    height: 26rem;
+    width: auto;
+    margin: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .card-sale-big-img {
+    height: 430px;
+  }
+  .card-sale:hover {
+    border: 2px solid green;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15),
+      0 1.5px 6px rgba(0, 128, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+  }
+  .card-sale .value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-sale .name-p {
+    color: gray;
+    margin: 0px 5px;
+    font-size: small;
+  }
+  .card-sale .name-p-h {
+    margin: 0px 5px;
+  }
+  .card-sale .name-p-h:hover {
+    color: green;
+  }
+  .card-sale .star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 5px;
+    gap: 2px;
+    margin-top: 10px;
+  }
+  .card-sale .value .card-b .card-r {
+    color: gray;
+  }
+  .card-sale .star .span1 {
+    color: yellow;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .card-sale .star .span2 {
+    color: gray;
+    font-size: medium;
+    font-weight: 500;
+  }
+  .card-sale .btn-sale button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .card-sale .times {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card-sale .times .time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 3rem;
+    width: 4rem;
+    padding: 5px;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .condition-card {
+    width: auto;
+  }
+  .condition-card .card-c {
+    height: 15rem;
+    width: 13.7rem;
+    margin: 0.5rem;
+    /* margin: 2rem; */
+    border-radius: 5px;
+  }
+  .condition-card .card-c img {
+    height: 3rem;
+    width: 3rem;
+    margin: 10px;
+  }
+  .condition-card .card-c .card-body {
+    text-align: left;
+  }
+  .condition-card .card-c .card-text {
+    text-align: left;
+  }
+  .footer {
+    margin: 10px 0px;
+    padding: 10px 37px;
+  }
+  .footer p {
+    cursor: pointer;
+  }
+  .footer p:hover {
+    color: green;
+  }
+  .footer b {
+    font-size: large;
+  }
+  .logos i {
+    width: 30px;
+    cursor: pointer;
+  }
+  .mid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .buttom {
+    margin: 15px 0px;
+  }
+  .all-footer {
+    background-color: rgb(232, 241, 244);
+    padding: 3rem;
+  }
+}
