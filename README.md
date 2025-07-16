@@ -36,6 +36,16 @@ A fully responsive food website clone built using **HTML**, **CSS**, **Bootstrap
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/PariRastogi18/Food-Website-Clone.git
+
+ ## 🙌 Author
+
+- Pari Rastogi
+- [GitHub Profile](https://github.com/PariRastogi18)
+
+ ## 🔗 Live Demo
+
+  https://food-website-clone-nu.vercel.app/
+
    
  ## 📄 License
 
